@@ -13,18 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-{
-    "Portal" : {
-    },
-    "Holding" : {
-    },
-    "Spawner" : {
-        // Want to be able to spawn multiple things (or one thing in different ways)
-        // Ex 1: Spawn a gelcube in the immediate vicinity
-        // Ex 2: Spawn a gelcube in the "wild" (within a certain distance / within a zone)
-        "types" : ["oreon"]
-    },
-    "PlaySoundAction" : {
-        sounds = "portals:spawn"
-    }
+package org.terasology.portals;
+
+import org.terasology.entitySystem.Component;
+
+/**
+ * Component that enables an entity to be a Holding.
+ *
+ * @author Rasmus 'Cervator' Praestholm <cervator@gmail.com>
+ */
+public class CivilizationComponent implements Component {
+
 }

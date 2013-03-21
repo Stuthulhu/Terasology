@@ -105,7 +105,7 @@ public class HoldingSystem implements UpdateSubscriberSystem {
 
                 // Then prep the "crown" in the shape of a shiny new SpawnerComponent ;-)
                 SpawnerComponent newSpawnerComp = new SpawnerComponent();
-                newSpawnerComp.types.add("gelcube");
+                newSpawnerComp.types.add("oreon");
                 newSpawnerComp.maxMobsPerSpawner = 666;
                 newSpawnerComp.timeBetweenSpawns = 1000;
 

@@ -7,6 +7,7 @@
         "animation" : "OreoMinions:GuardIdle",
         "loop" : true
     },
+    "SimpleMinionAIComponent" : {},
      "Minion" : {
 	     "icon" = "minionskull",
 	     "Healthtotal" = 800,
@@ -27,7 +28,6 @@
 		"terraformAnim" = "OreoMinions:GuardShow",
 		"randomAnim" : ["OreoMinions:GuardWave", "OreoMinions:GuardShow"]
 	},
-  "SimpleMinionAI" : {},
   "CharacterSound" : {
     "footstepSounds" : ["Slime1", "Slime2", "Slime3", "Slime4", "Slime5"],
     "footstepVolume" : 0.7
